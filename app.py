@@ -1,3 +1,4 @@
+import os
 from flask import Flask, render_template
 
 app = Flask(__name__)
@@ -7,9 +8,12 @@ opis = 'sila je moja najljubša igra'
 
 from sqlalchemy import create_engine, text
 
+connection_string = os.getenv('GRAFIS_PG_CONN_STR')
+print(connection_string)
+
 # Database
-engine = create_engine("postgresql://grafis_owner:RTogb40WyXmG@ep-autumn-sunset-a8e3slx5.eastus2.azure.neon.tech/grafis?options=endpoint%3Dep-autumn-sunset-a8e3slx5"
-)
+engine = create_engine(connection_string)
+
 
 
 with engine.connect() as conn:
