@@ -1,6 +1,6 @@
 <h2>Rezultati:</h2>
 <div>
-  {% for i in range(4) %}
+  {% for i in range(podatki|count) %}
     {% include 'result.html' %}
   {% endfor %}
 </div>

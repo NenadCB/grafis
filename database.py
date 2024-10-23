@@ -10,4 +10,9 @@ engine = create_engine(connection_string)
 def load_gesla():
     with engine.connect() as conn:
         result = conn.execute(text('select * from slovar'))
-        return result.all()
+        rows = []
+        for row in result.all():
+           rows.append(row._mapping)
+    return rows
+
+#print(load_gesla())
