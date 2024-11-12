@@ -1,4 +1,6 @@
+{% if podatki|count > 0 %}
 <h2>Rezultati:</h2>
+{% endif %}
 <div>
   {% for i in range(podatki|count) %}
     {% include 'result.html' %}

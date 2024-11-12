@@ -6,8 +6,13 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
+    podatki = {}
     iskalnik = request.args
-    podatki = load_gesla(iskalnik)
+    
+    if 'q' in iskalnik:
+        if iskalnik['q'] != '':
+            podatki = load_gesla(iskalnik)
+
     return render_template('home.html', podatki=podatki)
 
 if __name__ == '__main__':
