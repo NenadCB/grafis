@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 from database import load_gesla
 
 app = Flask(__name__)
@@ -6,7 +6,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    podatki = load_gesla()
+    iskalnik = request.args
+    podatki = load_gesla(iskalnik)
     return render_template('home.html', podatki=podatki)
 
 if __name__ == '__main__':
