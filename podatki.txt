@@ -1,0 +1,47 @@
+absorption & vpoj & process of taking in and/or transforming of energy by the medium & postopek prevzemanja in/ali pretvarjanja energije v snovi & \\
+air layer & zračni sloj & airspace that have a width and length both 10 times the thickness & zračni prostor, katerega širina in dolžina sta 10 krat večjo od debeline & ISO 6946 \\
+air void & zračna odprtina & airspace that have a width or length comparable to the thickness & zračni prostor, katerega širina in dolžina sta primerljivi z debelino & ISO 6946 \\
+airborne sound & zračni zvok & sound transmitted through the air & sound, ki se prenaša po zraku & \\
+airspace & zračni prostor & space in construction filled with air & prostor v konstrukciji zapolnjen z zrakom & ISO 6946 \\
+basement & klet & usable part of a building that is situated partly or entirely below ground level & uporabni del stavbe, ki se nahaja delno ali v celoti pod ravnjo zemlje & ISO 13370 \\
+building component & stavbna sestavina & building element or a part of it & stavbni element ali del elementa & ISO 6946 \\
+building element & stavbni element & major part of a building such as a wall, floor or roof & velik del stavbe, npr. zid, tla ali streha & ISO 6946 \\
+building physics & gradbena fizika & engineering discipline that is concerned with living comfort in buildings and the interaction of buildings with the environment & inženirska disciplina, ki se ukvarja z bivalnim ugodjem v stavbah in meddelovanjem stavb z okoljem & \\
+colour rendering index & indeks barvnega videza & measure of how accurately the colours are reproduced under a particular light source compared to a natural or standard light source & merilo, kako natančno so barve poustvarjene pod določenim virom svetlobe v primerjavi z naravnim ali standardnim virom svetlobe & \\
+conditioned space & klimatiziran prostor & heated and/or cooled space & prostor, ki se greje in/ali hladi & ISO 13789\\
+conduction & prevajanje & mechanism of heat transfer by particles, without bulk movement of particles & mehanizem prenosa toplote s pomočjo delcev, brez masovnega gibanja delcev & \\
+convection & prestop & mechanism of heat transfer by particles, with bulk movement of particles & mehanizem prenosa toplote s pomočjo delcev, z masovnim gibanjem delcev & \\
+diffusive sound field & difuzno zvočno polje & sound field where the sound reflections represent dominant contribution to sound energy & zvočno polje, kjer odboji zvoka predstavljajo prevladujoč prispevek k zvočni energiji &  \\
+direct transmission & direktni prenos & transmission through the separating building element & prenos skozi ločitveni stavbni element & DIN 4109-2 \\
+dissipation & sipanje & process of transforming of energy by the medium & postopek pretvarjanja energije v snovi & \\
+energy performance certificate & energijska izkaznica & certificate that indicates the energy performance of a building or building unit & potrdilo, v katerem je navedena energijska učinkovitost stavbe ali stavbne enote & 2010/31/EU \\
+external dimension & zunanja dimenzija & dimension measured on the exterior of a building & dimenzija izmerjena z zunanje strani stavbe & ISO 13789 \\
+flanking transmission & bočni prenos & sound transmission on transmission paths containing at least one flanking building element & prenos zvoka po zvočnih poteh, ki vključujejo vsaj en bočni element & DIN 4109-2 \\
+free sound field & prosto zvočno polje & sound field where the sound reflections represent small or negligible contribution to sound energy & zvočno polje, kjer odboji zvoka predstavljajo majhen ali zanemarljiv prispevek k zvočni energiji &  \\
+impact sound & udarni zvok & noise created by the impact of the object with the construction & zvok, ustvarjen zaradi udarca predmeta s konstrukcijo & \\
+impulsive sound & impulzni zvok & sound characterized by brief bursts of sound pressure & zvok karakteriziran s kratkimi izbruhi zvočnega tlaka & ISO 1996-1 \\
+interface temperature & mejna temperatura & temperature between two layers within the wall & temperatura med dvema slojema v zidu & \\
+internal dimension & notranja dimenzija & dimension measured from wall to wall and floor to ceiling inside a room of a building & dimenzija merjena od zida do zida in od tal do stropa znotraj sobe v stavbi & ISO 13789 \\
+overall internal dimension & celotna notranja dimenzija & dimension measured on the interior of a building, ignoring internal partitions & dimenzija merjena z notranje strani stavbe, ne upoštevajoč notranje pregrade & ISO 13789 \\
+radiation & sevanje & mechanism of heat transfer by electromagnetic waves & mehanizem prenosa toplote s pomočjo elektromagnetnega valovanja & \\
+rating level & ocenjena raven & any predicted or measured acoustic level to which an adjustment has been added & katerikoli napovedana ali izmerjena akustična raven kateri je dodan popravek & ISO 1996-1 \\
+reflection & odboj & process of throwing back of energy by the medium & postopek odbijanja energije od snovi & \\
+slab on ground & temeljna plošča & floor construction directly on the ground over its whole area & gradnja talnega nadstropja neposredno na zemlji po celotni površini & ISO 13370 \\
+sunlight exposure & osončenje & sum of the time within a given period during which the sun is above the actual horizon with a cloudless sky, which may be limited by permanent obstructions & seštevek časa znotraj katerega je sonce nad horizontom pri jasnem nebu, ki je lahko omejen z trajnimi ovirami & EN 17037 \\
+surface temperature & površinska temperatura & temperature on the surface of the wall & temperatura na površini zidu & \\
+suspended floor & privzdignjena tla & floor construction in which the lowest floor is held off the ground, resulting in an air void between the floor and the ground & gradnja, pri kateri je talno nadstropje grajeno nad tlemi, pri čemer se pojavi zračni prostor med nadstropjem in zemljo & ISO 13370 \\
+thermal bridge & toplotni most & part of the thermal envelope where the otherwise uniform thermal resistance is significantly changed and/or a difference between internal and external areas appear & del toplotnega ovoja, kjer se sicer stalen toplotni upor bistveno spremeni in/ali se pojavi razlika med notranjo in zunanjo površino & ISO 10211 \\
+thermal envelope & toplotni ovoj & the boundary between the conditioned space and unconditioned space/external environment & meja med klimatiziranim prostorom in neklimatiziranim prostorom/zunanjim okoljem & ISO 13789 \\
+tonal sound & tonski zvok & sound characterized by a single frequency component or narrow-band components that emerge audibly from the total sound & zvok karakteriziran z eno samo frekvenčno komponento ali ozkopasovnimi komponentami, ki se slišno pojavljajo iz celotnega zvoka & ISO 1996-1 \\
+transmission & prenos & process of passing of energy through the medium & postopek prehajanja energije skozi snov & \\
+unconditioned space & neklimatiziran prostor & room or enclosure which is not part of a conditioned space & soba ali prostor, ki ni del klimatiziranega prostora & ISO 13789 \\
+apparent & odčitan & & & \\
+diffraction & uklon & & & \\
+frequency band & frekvenčni pas & & & \\
+interstitial condensation & vmesno navlaževanje & & & \\
+one-third octave & terčni & & & \\
+partial pressure & delni tlak & & & \\
+standing wave & stoječe valovanje & & & \\
+time delay & časovni zamik & & & \\
+travelling wave & potujoče valovanje & & & \\
+weighted level & vrednotena raven & & & \\
