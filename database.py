@@ -8,18 +8,27 @@ connection_string = os.getenv('GRAFIS_PG_CONN_STR')
 engine = create_engine(connection_string)
 
 def load_gesla(iskalnik):
-    q = "'%" + iskalnik['q'] + "%'"
-    select = 'select * from slovarfizika where '
-    geslo = 'geslo like ' + q 
-    definicija = 'definicija like ' + q 
-    prevodi = 'prevodi like ' + q 
-    select += geslo + ' OR ' + definicija + ' OR ' + prevodi
+    q = '%' + iskalnik['q'] + '%'
+
+    if iskalnik['q'] == '*':
+        select = 'select * from slovarfizika order by geslo_slo'
+    else:
+        select = 'select * from slovarfizika where '
+        geslo_slo = 'geslo_slo like :najdi '
+        definicija_slo = 'definicija_slo like :najdi '
+        geslo_ang = 'geslo_ang like :najdi ' 
+        definicija_ang = 'definicija_ang like :najdi order by geslo_slo'
+        select += geslo_slo + ' OR ' + definicija_slo + ' OR ' + geslo_ang + ' OR ' + definicija_ang
+
     with engine.connect() as conn:
-        result = conn.execute(text(select))
+        result = conn.execute(text(select), parameters=dict(najdi=q))
         rows = []
         for row in result.all():
            rows.append(row._mapping)
     return rows
+
+#gesla = load_gesla({'q':'vpoj'})
+#print(gesla)
 
 def load_geslo(id):
     select = 'select * from slovarfizika where id = :val'
