@@ -9,7 +9,7 @@ engine = create_engine(connection_string)
 
 def load_gesla(iskalnik):
     q = "'%" + iskalnik['q'] + "%'"
-    select = 'select * from slovar where '
+    select = 'select * from slovarfizika where '
     geslo = 'geslo like ' + q 
     definicija = 'definicija like ' + q 
     prevodi = 'prevodi like ' + q 
